@@ -7,7 +7,7 @@ description 'helnius interior mapdata'
 version '1.0-release'
 
 replace_level_meta 'gta5'
-
+server_script 'version-check.lua' 
 files {
     'gta5.meta',
     'doortuning.ymt',
